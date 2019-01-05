@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>HymnTron</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>HymnTron: Human or AI?</h3>
+      <div class="loading">loading...</div>
+      <div class="view hide">
+        <p>Try to guess whether the audio on the left or right was generated using AI.</p>
+        <div class="alert alert-danger hide" role="alert">
+          Please select either left or right before you move onto the next.
+        </div>
+        <div class="questions">
+          <div id="q1" class="current">
+            <div class="row">
+              <div class="col">
+                <div id="player0"></div>
+                <input type="radio" name="q1" value="left">
+                <label for="q1">left</label>
+              </div>
+              <div class="col">
+                <div id="player1"></div>
+                <input type="radio" name="q1" value="right">
+                <label for="q1">right</label>
+              </div>
+            </div>
+          </div>
+          <div id="q2" class="hide">
+            <div class="row">
+              <div class="col">
+                <div id="player2"></div>
+                <input type="radio" name="q2" value="left">
+                <label for="q2">left</label>
+              </div>
+              <div class="col">
+                <div id="player3"></div>
+                <input type="radio" name="q2" value="right">
+                <label for="q2">right</label>
+              </div>
+            </div>
+          </div>
+          <div id="q3" class="hide">
+            <div class="row">
+              <div class="col">
+                <div id="player4"></div>
+                <input type="radio" name="q3" value="left">
+                <label for="q3">left</label>
+              </div>
+              <div class="col">
+                <div id="player5"></div>
+                <input type="radio" name="q3" value="right">
+                <label for="q3">right</label>
+              </div>
+            </div>
+          </div>
+          <div id="q4" class="hide">
+            <div class="row">
+              <div class="col">
+                <div id="player6"></div>
+                <input type="radio" name="q4" value="left">
+                <label for="q4">left</label>
+              </div>
+              <div class="col">
+                <div id="player7"></div>
+                <input type="radio" name="q4" value="right">
+                <label for="q4">right</label>
+              </div>
+            </div>
+          </div>
+          <div id="q5" class="hide">
+            <div class="row">
+              <div class="col">
+                <div id="player8"></div>
+                <input type="radio" name="q5" value="left">
+                <label for="q5">left</label>
+              </div>
+              <div class="col">
+                <div id="player9"></div>
+                <input type="radio" name="q5" value="right">
+                <label for="q5">right</label>
+              </div>
+            </div>
+          </div>
+          <button class="next btn btn-primary">Next</button>
+        </div>
+      </div>
+      <div class="results hide">
+        <p></p>
+        <button class="reset btn-secondary">Restart</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+  </body>
+</html>
