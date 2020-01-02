@@ -9,3 +9,7 @@ Music has a way of moving people's emotions. It sets the mood for one to be imme
 With this project, we aim to generate hymn music melody. The music data is in the form of Musical Instrument Digital Interface, hereafter called "MIDI". It contains important information about a music piece such as key signature, time signature, note pitches and BPM. The MIDI data is converted into a quantized sequence and trained based on a carefully structured model. 
 
 A common problem with mixing artificial intelligence and art is that it can infringe on copyright. Since the model learns a specific style of music through the training set, one can wonder if it will create music that is too similar to the original songs. However, in this paper, a variety of scoring functions will be used to ensure that the compositions display a similar compositional distribution while being different from the original songs. 
+
+
+Try out the survey !
+https://jmpark0808.github.io/HymnTron/
